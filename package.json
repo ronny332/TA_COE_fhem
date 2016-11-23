@@ -1,0 +1,15 @@
+{
+  "name": "ta_coe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.2"
+  }
+}

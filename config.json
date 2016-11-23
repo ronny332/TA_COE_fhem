@@ -1,0 +1,73 @@
+{
+  "knots": {
+    "51": {
+      "name": "Pellet/Solar",
+      "input": {
+        "analog": {
+          "17": "T.Kollektor",
+          "18": "T.Solar VL",
+          "19": "T.Solar RL",
+          "20": "T.Speicher oben",
+          "21": "T.Speicher mitte",
+          "22": "T.Speicher unten",
+          "23": false,
+          "24": "T.Pelletkessel VL",
+          "25": "T.Warmwasser unten",
+          "26": "T.Zirkulation RL",
+          "27": "T.WW Austritt",
+          "28": "T.Kollektor VL",
+          "29": "T.Rucklaufanhebung",
+          "30": "T.Warmwasser oben",
+          "31": false,
+          "32": false
+        }
+      }
+    },
+    "52": {
+      "name": "Gas/FBH/HK",
+      "input": {
+        "analog": {
+          "17": "T.Außen",
+          "18": "T.Heizkreis 1 VL",
+          "19": "T.Heizkreis 1 RL",
+          "20": "T.Heizkreis 2 VL",
+          "21": "T.Heizkreis 2 RL",
+          "22": "T.Gaskassel VL",
+          "23": "T.VL Ventil-Warmwasser",
+          "24": false,
+          "25": false,
+          "26": false,
+          "27": false,
+          "28": false,
+          "29": false,
+          "30": false,
+          "31": false,
+          "32": false
+        }
+      }
+    }
+  },
+  "data": {
+    "store": {
+      "enabled": true,
+      "interval": 60000,
+      "file": "ta_coa.json",
+      "path": "/tmp"
+    }
+  },
+  "message": {
+    "preventErrors": true,
+    "suppressDuplicates": false
+  },
+  "server": {
+    "debug": {
+      "enabled": true
+    },
+    "port": 5441
+  },
+  "telnet": {
+    "dummy": "dum_ta_coe",
+    "host": "10.0.0.23",
+    "port": 7072
+  }
+}
