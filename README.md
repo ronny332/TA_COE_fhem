@@ -1,7 +1,7 @@
 # TA_COE_fhem
 Nodejs implementation of the CoE (Can over Ethernet) Standard from TA (Technische Alternative).
 
-In the current state the software reads all UDP packages sent by the CMI Interface and compares it with the layout, setted in config.js (config.knots).
+In the current state the software reads all UDP packages sent by the CMI Interface and compares it with the layout, set in config.js (config.knots).
 For now it reads just analog values, digital values will follow in the future.
 
 Received and valid frames (14 bytes each), will be sent to a running FHEM instance by telnet. For now only unsecured telnet ports are usable.
