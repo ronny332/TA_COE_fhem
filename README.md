@@ -12,4 +12,4 @@ Received and valid frames (14 bytes each), will be sent to a running FHEM instan
 * modify config.js: `vim config.js`
 * start TA_CoE_fhem: `node index.js`
 
-![TA_CoE_fhem in an early version](https://github.com/ronny332/TA_CoE/raw/master/TA_COE_fhem.png)
+![TA_CoE_fhem in an early version](https://github.com/ronny332/TA_CoE/raw/master/ta_coe_fhem.png)
